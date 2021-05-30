@@ -44,7 +44,7 @@ function App() {
       /> */}
         <Header date={projects.lastUpdate}/>
         <div className="cardContainer">
-          {projs.map((proj) => <Card key={proj.url} title={proj.title} date={proj.date} desc={proj.desc} url={proj.url} repo={proj.repo} />)}
+          {projs.map((proj) => <Card key={proj.url} title={proj.title} date={proj.date} desc={proj.desc} image={proj.image} url={proj.url} repo={proj.repo} />)}
         </div>
       </ThemeProvider>
     </div>

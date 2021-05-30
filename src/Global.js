@@ -16,6 +16,8 @@ export const GlobalStyles = createGlobalStyle`
     padding: 0;
     margin: 0;
     transition: all 0.25s linear;
+
+    text-align: justify;
   }
 
   a {

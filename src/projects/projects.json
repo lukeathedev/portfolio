@@ -4,22 +4,25 @@
     "proj0": {
       "title": "typing_test",
       "date": "2019-02-03T02:00:00.000Z",
-      "desc": "sample project",
+      "desc": "A typing test game written in raw JavaScript for the web.",
       "url": "https://lukeathedev.github.io/typing_test/",
+      "image": "/projects/typing_test/image.png",
       "repo": "https://github.com/lukeathedev/typing_test"
     },
     "proj1": {
       "title": "Chess2D",
       "date": "2021-03-03T03:00:00.000Z",
-      "desc": "sample project",
+      "desc": "A singleplayer chess game written in JavaScript with the p5.js library.",
+      "image": "/projects/Chess2D/image.png",
       "url": "https://lukeathedev.github.io/projects/chess2d/",
       "repo": "https://github.com/lukeathedev/Chess2D"
     },
     "proj2": {
       "title": "cdelbrot",
       "date": "2019-12-24T03:00:00.000Z",
-      "desc": "sample project",
-      "url": "https://google.com",
+      "desc": "A command-line mandelbrot set visualizer written in C with ncurses.",
+      "image": "/projects/cdelbrot/image.png",
+      "url": "https://github.com/lukeathedev/cdelbrot/",
       "repo": "https://github.com/lukeathedev/cdelbrot"
     }
   }

@@ -29,8 +29,12 @@ export default class Card extends React.Component {
         <h1>{this.props.title}</h1>
         {/* Date should be localeDateString or smth */}
         <h3>Created {new Date(this.props.date).toLocaleDateString()}</h3>
-        <p>{this.props.desc}. You can find the repository <a href={this.props.repo} target="_blank" rel="noreferrer">here</a>.</p>
-        <iframe className="border-ac2" src={this.props.url} title={this.props.title}></iframe>
+        <p>{this.props.desc} You can find the repository <a href={this.props.repo} target="_blank" rel="noreferrer">here</a>.&nbsp;
+          <b>Hover over me</b> and click the image to open the project in a new tab.</p>
+        <hr></hr>
+        <a href={this.props.url} target="_blank" rel="noreferrer">
+          <img src={this.props.image} alt={this.props.title}></img>
+        </a>
       </div>
     );
   }

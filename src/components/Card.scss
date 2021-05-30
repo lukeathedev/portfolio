@@ -1,34 +1,48 @@
 @import "../styles/design.scss";
 
 .Card {
-  min-width: 200px;
+  width: 300px;
 
-  order: 2;
+  // order: 2;
+  max-height: 500px;
+  overflow-y: auto;
 
   border: 2px solid; 
   border-radius: 10px;
   padding: $gap-md;
   margin: $gap-md;
 
-  iframe {
+  transition: width .5s ease;
+
+  p {
+    width: 260px; // width-pad
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  img {
     display: none;
     width: 100%;
-    min-height: 800px;
+    // min-height: 800px;
 
     border-width: 2px;
     border-radius: 10px;
   }
+
+  hr {
+    margin-bottom: $gap-md;
+  }
 }
 
-.card-active {
-  order: 1;
+.Card:hover {
+  // order: 1;
   
-  width: 100%;
+  width: 50%;
   // background-color: red;
 
-  transition: 1s ease;
+  transition: width .5s ease;
 
-  iframe {
+  img {
     display: block;
   }
 }
