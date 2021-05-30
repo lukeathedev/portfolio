@@ -27,7 +27,7 @@
     },
     "proj3": {
       "title": "Song Reviews",
-      "date": "2020-05-17T03:00:00.000Z",
+      "date": "2020-05-15T03:00:00.000Z",
       "desc": "A website (in PT-BR) that contains album review cards written in plain JavaScript.",
       "image": "/projects/song_reviews/image.jpg",
       "url": "https://lukeathedev.github.io/projects/song-reviews/",
