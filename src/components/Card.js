@@ -29,7 +29,9 @@ export default class Card extends React.Component {
         <h1>{this.props.title}</h1>
         {/* Date should be localeDateString or smth */}
         <h3>Created {new Date(this.props.date).toLocaleDateString()}</h3>
-        <p>{this.props.desc} You can find the repository <a href={this.props.repo} target="_blank" rel="noreferrer">here</a>.&nbsp;
+        <p>{this.props.desc}</p>
+        <hr></hr>
+        <p> The repository is <a href={this.props.repo} target="_blank" rel="noreferrer">here</a>.&nbsp;
           <b>Hover over me</b> and click the image to open the project in a new tab.</p>
         <hr></hr>
         <a href={this.props.url} target="_blank" rel="noreferrer">
