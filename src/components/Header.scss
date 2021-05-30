@@ -1,0 +1,12 @@
+@import '../styles/design.scss';
+
+.Header {
+  padding: $gap-lg;
+  padding-bottom: 0;
+
+  display: flex;
+
+  i {
+    font-size: 0.5em;
+  }
+}

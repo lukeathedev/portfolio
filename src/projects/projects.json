@@ -1,0 +1,26 @@
+{
+  "lastUpdate": "2021-05-30T20:29:10.756Z",
+  "projects": {
+    "proj0": {
+      "title": "typing_test",
+      "date": "2019-02-03T02:00:00.000Z",
+      "desc": "sample project",
+      "url": "https://lukeathedev.github.io/typing_test/",
+      "repo": "https://github.com/lukeathedev/typing_test"
+    },
+    "proj1": {
+      "title": "Chess2D",
+      "date": "2021-03-03T03:00:00.000Z",
+      "desc": "sample project",
+      "url": "https://lukeathedev.github.io/projects/chess2d/",
+      "repo": "https://github.com/lukeathedev/Chess2D"
+    },
+    "proj2": {
+      "title": "cdelbrot",
+      "date": "2019-12-24T03:00:00.000Z",
+      "desc": "sample project",
+      "url": "https://google.com",
+      "repo": "https://github.com/lukeathedev/cdelbrot"
+    }
+  }
+}
