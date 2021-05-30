@@ -4,7 +4,7 @@
     "proj0": {
       "title": "typing_test",
       "date": "2019-02-03T02:00:00.000Z",
-      "desc": "A typing test game written in raw JavaScript for the web.",
+      "desc": "A typing test game written in plain JavaScript for the web.",
       "url": "https://lukeathedev.github.io/typing_test/",
       "image": "/projects/typing_test/image.png",
       "repo": "https://github.com/lukeathedev/typing_test"
@@ -24,6 +24,14 @@
       "image": "/projects/cdelbrot/image.png",
       "url": "https://github.com/lukeathedev/cdelbrot/",
       "repo": "https://github.com/lukeathedev/cdelbrot"
+    },
+    "proj3": {
+      "title": "Song Reviews",
+      "date": "2020-05-17T03:00:00.000Z",
+      "desc": "A website (in PT-BR) that contains album review cards written in plain JavaScript.",
+      "image": "/projects/song_reviews/image.jpg",
+      "url": "https://lukeathedev.github.io/projects/song-reviews/",
+      "repo": "https://github.com/lukeathedev/lukeathedev.github.io/tree/master/projects/song-reviews"
     }
   }
 }
