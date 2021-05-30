@@ -11,7 +11,8 @@ export const GlobalStyles = createGlobalStyle`
     color: ${({ theme }) => theme.fg0};
     background-color: ${({ theme }) => theme.bg0};
 
-    font-family: monospace;
+    font-family: 'Share Tech Mono', monospace;
+    // font-size: 1.2em;
     height: 100vh;
     padding: 0;
     margin: 0;
