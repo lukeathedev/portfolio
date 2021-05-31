@@ -44,23 +44,25 @@ function App() {
         desc={JSON.stringify(projects)}
         page="https://lukeathedev.github.io/projects/chess2d/"
       /> */}
-        <Header date={projects.lastUpdate} themeFunc={toggleTheme} theme={theme === 'light' ? "Dark" : "Light"}/>
-        <div className="cardContainer">
-          {projs.map((proj) => <Card
-            key={proj.url}
-            title={proj.title}
-            date={proj.date}
-            desc={proj.desc}
-            image={proj.image}
-            url={proj.url}
-            repo={proj.repo}
-          />)}
+        <div>
+          <Header date={projects.lastUpdate} themeFunc={toggleTheme} theme={theme === 'light' ? "Dark" : "Light"} />
+          <div className="cardContainer">
+            {projs.map((proj) => <Card
+              key={proj.url}
+              title={proj.title}
+              date={proj.date}
+              desc={proj.desc}
+              image={proj.image}
+              url={proj.url}
+              repo={proj.repo}
+            />)}
+          </div>
         </div>
+        <div>
+          <hr className="footHr"></hr>
 
-        <hr className="footHr"></hr>
-
-        <Footer />
-
+          <Footer />
+        </div>
       </ThemeProvider>
     </div>
   );
