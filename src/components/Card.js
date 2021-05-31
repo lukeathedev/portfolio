@@ -32,7 +32,7 @@ export default class Card extends React.Component {
         <p>{this.props.desc}</p>
         <hr></hr>
         <p> The repository is <a href={this.props.repo} target="_blank" rel="noreferrer">here</a>.&nbsp;
-          <b>Hover over me</b> and click the image to open the project in a new tab.</p>
+          <b>Hover or tap this card</b> and click the image to open the project in a new tab.</p>
         <hr></hr>
         <a href={this.props.url} target="_blank" rel="noreferrer">
           <img src={this.props.image} alt={this.props.title}></img>

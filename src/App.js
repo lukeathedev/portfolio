@@ -5,21 +5,23 @@ import { GlobalStyles } from './Global';
 
 import Card from './components/Card';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 import projects from './projects/projects.json';
 import './App.scss';
 
 function App() {
-  const [theme, /*setTheme*/] = useState('dark');
+  const [theme, setTheme] = useState('dark');
 
-  // const toggleTheme = () => {
-  //   if (theme === 'light') {
-  //     setTheme('dark');
-  //   }
-  //   else {
-  //     setTheme('light');
-  //   }
-  // }
+  const toggleTheme = () => {
+    console.log('ayy')
+    if (theme === 'light') {
+      setTheme('dark');
+    }
+    else {
+      setTheme('light');
+    }
+  }
 
   let projs = [];
   Object.keys(projects.projects).forEach((key) => {
@@ -42,10 +44,23 @@ function App() {
         desc={JSON.stringify(projects)}
         page="https://lukeathedev.github.io/projects/chess2d/"
       /> */}
-        <Header date={projects.lastUpdate}/>
+        <Header date={projects.lastUpdate} themeFunc={toggleTheme} theme={theme === 'light' ? "Dark" : "Light"}/>
         <div className="cardContainer">
-          {projs.map((proj) => <Card key={proj.url} title={proj.title} date={proj.date} desc={proj.desc} image={proj.image} url={proj.url} repo={proj.repo} />)}
+          {projs.map((proj) => <Card
+            key={proj.url}
+            title={proj.title}
+            date={proj.date}
+            desc={proj.desc}
+            image={proj.image}
+            url={proj.url}
+            repo={proj.repo}
+          />)}
         </div>
+
+        <hr className="footHr"></hr>
+
+        <Footer />
+
       </ThemeProvider>
     </div>
   );

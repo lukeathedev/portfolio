@@ -1,8 +1,7 @@
 @import "../styles/design.scss";
 
-.Header {
-  padding: $gap-lg;
-  padding-bottom: 0;
+.Footer {
+  padding: 0 $gap-lg;
 
   display: flex;
   align-content: center;
@@ -17,3 +16,4 @@
     line-height: 75%;
   }
 }
+

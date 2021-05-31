@@ -1,8 +1,14 @@
+@import './styles/design.scss';
+
 .App {
   .cardContainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
+  }
+
+  .footHr {
+    margin: $gap-md;
   }
 }

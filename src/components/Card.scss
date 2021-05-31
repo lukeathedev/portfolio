@@ -12,7 +12,7 @@
   padding: $gap-md;
   margin: $gap-md;
 
-  transition: width .5s ease;
+  transition: .5s ease;
 
   p {
     width: 260px; // width-pad
@@ -38,10 +38,13 @@
   // order: 1;
   
   min-width: 300px;
-  width: 50%;
+  width: 330px;
+  margin-left: 5px;
+  margin-right: 5px;
+
   // background-color: red;
 
-  transition: width .5s ease;
+  transition: .5s ease;
 
   img {
     display: block;

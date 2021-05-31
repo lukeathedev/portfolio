@@ -7,7 +7,15 @@ export const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
 
+  body::-webkit-scrollbar {
+    display: none;
+  }
+
   body {
+
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+
     color: ${({ theme }) => theme.fg0};
     background-color: ${({ theme }) => theme.bg0};
 
@@ -22,8 +30,23 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   a {
-    color: ${({ theme}) => theme.ac1};
+    color: ${({ theme }) => theme.ac1};
     text-decoration: none;
+  }
+
+  button {
+    color: ${({ theme }) => theme.fg1};
+    background-color: transparent;
+
+    font-style: italic;
+
+    border: none;
+    padding: 5px;
+    padding-bottom: 0;
+  }
+
+  button:hover {
+    cursor: pointer;
   }
 
   // Base colorschemes (add classes to components)
