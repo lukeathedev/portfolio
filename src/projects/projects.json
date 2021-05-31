@@ -32,6 +32,14 @@
       "image": "/projects/song_reviews/image.jpg",
       "url": "https://lukeathedev.github.io/projects/song-reviews/",
       "repo": "https://github.com/lukeathedev/lukeathedev.github.io/tree/master/projects/song-reviews"
+    },
+    "proj4": {
+      "title": "My Portfolio",
+      "date": "2021-05-30T03:00:00.000Z",
+      "desc": "Well... this is a bit meta. This portfolio is also part of the portfolio! It was written with React.js.",
+      "image": "/projects/my_portfolio/image.png",
+      "url": "#",
+      "repo": "https://github.com/lukeathedev/portfolio"
     }
   }
 }

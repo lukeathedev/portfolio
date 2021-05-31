@@ -49,6 +49,10 @@ export const GlobalStyles = createGlobalStyle`
     cursor: pointer;
   }
 
+  li {
+    list-style-type: none;
+  }
+
   // Base colorschemes (add classes to components)
   .fg0 {
     color: ${({ theme }) => theme.fg0};
@@ -71,10 +75,13 @@ export const GlobalStyles = createGlobalStyle`
   .border-ac2 {
     border-color: ${({ theme }) => theme.ac2};
   }
-  .ac1 {
+  .ac0 {
     color: ${({ theme }) => theme.ac0};
   }
   .ac1 {
     color: ${({ theme }) => theme.ac1};
+  }
+  .ac2 {
+    color: ${({ theme }) => theme.ac2};
   }
 `

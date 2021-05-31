@@ -2,11 +2,13 @@
 
 .Footer {
   padding: 0 $gap-lg;
+  padding-bottom: $gap-md;
 
   display: flex;
   align-content: center;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 
   i {
     font-size: 0.5em;

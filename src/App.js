@@ -48,7 +48,7 @@ function App() {
           <Header date={projects.lastUpdate} themeFunc={toggleTheme} theme={theme === 'light' ? "Dark" : "Light"} />
           <div className="cardContainer">
             {projs.map((proj) => <Card
-              key={proj.url}
+              key={proj.title}
               title={proj.title}
               date={proj.date}
               desc={proj.desc}

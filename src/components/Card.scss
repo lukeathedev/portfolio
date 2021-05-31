@@ -1,7 +1,9 @@
 @import "../styles/design.scss";
 
+$card-width: 350px;
+
 .Card {
-  width: 300px;
+  width: $card-width;
 
   // order: 2;
   max-height: 500px;
@@ -15,12 +17,20 @@
   transition: .5s ease;
 
   p {
-    width: 260px; // width-pad
+    width: $card-width - 40px; // width-pad
     margin-left: auto;
     margin-right: auto;
   }
 
-  img {
+  .hideHover {
+    text-align: center;
+  }
+
+  .displayHover {
+    img {
+      width: 100%;
+    }
+
     display: none;
     width: 100%;
     // min-height: 800px;
@@ -37,8 +47,8 @@
 .Card:hover {
   // order: 1;
   
-  min-width: 300px;
-  width: 330px;
+  min-width: $card-width;
+  width: $card-width + 30px;
   margin-left: 5px;
   margin-right: 5px;
 
@@ -46,7 +56,10 @@
 
   transition: .5s ease;
 
-  img {
+  .displayHover {
     display: block;
+  }
+  .hideHover {
+    display: none;
   }
 }
