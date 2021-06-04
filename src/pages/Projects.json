@@ -6,14 +6,14 @@
       "date": "2019-02-03T02:00:00.000Z",
       "desc": "A typing test game written in plain JavaScript for the web.",
       "url": "https://lukeathedev.github.io/typing_test/",
-      "image": "/projects/typing_test/image.png",
+      "image": "/projects/proj0.png",
       "repo": "https://github.com/lukeathedev/typing_test"
     },
     "proj1": {
       "title": "Chess2D",
       "date": "2021-03-03T03:00:00.000Z",
       "desc": "A singleplayer chess game written in JavaScript with the p5.js library.",
-      "image": "/projects/Chess2D/image.png",
+      "image": "/projects/proj1.png",
       "url": "https://lukeathedev.github.io/projects/chess2d/",
       "repo": "https://github.com/lukeathedev/Chess2D"
     },
@@ -21,7 +21,7 @@
       "title": "cdelbrot",
       "date": "2019-12-24T03:00:00.000Z",
       "desc": "A command-line mandelbrot set visualizer written in C with ncurses.",
-      "image": "/projects/cdelbrot/image.png",
+      "image": "/projects/proj2.png",
       "url": "https://github.com/lukeathedev/cdelbrot/",
       "repo": "https://github.com/lukeathedev/cdelbrot"
     },
@@ -29,7 +29,7 @@
       "title": "Song Reviews",
       "date": "2020-05-15T03:00:00.000Z",
       "desc": "A website (in PT-BR) that contains album review cards written in plain JavaScript.",
-      "image": "/projects/song_reviews/image.jpg",
+      "image": "/projects/proj3.jpg",
       "url": "https://lukeathedev.github.io/projects/song-reviews/",
       "repo": "https://github.com/lukeathedev/lukeathedev.github.io/tree/master/projects/song-reviews"
     },
@@ -37,7 +37,7 @@
       "title": "My Portfolio",
       "date": "2021-05-30T03:00:00.000Z",
       "desc": "Well... this is a bit meta. This portfolio is also part of the portfolio! It was written with React.js.",
-      "image": "/projects/my_portfolio/image.png",
+      "image": "/projects/proj4.png",
       "url": "#",
       "repo": "https://github.com/lukeathedev/portfolio"
     }

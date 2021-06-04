@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import { ThemeProvider } from 'styled-components';
-import { lightTheme, darkTheme } from './styles/Theme';
-import { GlobalStyles } from './Global';
+import { lightTheme, darkTheme } from '../styles/Theme';
+import { GlobalStyles } from '../Global';
 
-import Card from './components/Card';
-import Header from './components/Header';
-import Footer from './components/Footer';
+import Card from '../components/Card';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
-import projects from './projects/projects.json';
-import './App.scss';
+import projects from './Projects.json';
+import './Projects.scss';
 
 function App() {
   const [theme, setTheme] = useState('dark');
