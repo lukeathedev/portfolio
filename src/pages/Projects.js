@@ -14,7 +14,6 @@ function App() {
   const [theme, setTheme] = useState('dark');
 
   const handleThemeChange = () => {
-    console.log('ayy')
     if (theme === 'light') {
       setTheme('dark');
     }
