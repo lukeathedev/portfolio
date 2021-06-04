@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { ThemeProvider } from 'styled-components';
-import { lightTheme, darkTheme } from '../styles/Themes';
 import { GlobalStyles } from '../styles/Global';
+import { lightTheme, darkTheme } from '../styles/Themes';
 
 import Card from '../components/Card';
 import Header from '../components/Header';
@@ -13,7 +13,7 @@ import './Projects.scss';
 function App() {
   const [theme, setTheme] = useState('dark');
 
-  const toggleTheme = () => {
+  const handleThemeChange = () => {
     console.log('ayy')
     if (theme === 'light') {
       setTheme('dark');
@@ -35,7 +35,7 @@ function App() {
   projs.sort(byDate).reverse();
 
   return (
-    <div className="App">
+    <div className="Projects">
       <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
         <GlobalStyles />
         {/* <Card
@@ -45,7 +45,12 @@ function App() {
         page="https://lukeathedev.github.io/projects/chess2d/"
       /> */}
         <div>
-          <Header date={projects.lastUpdate} themeFunc={toggleTheme} theme={theme === 'light' ? "Dark" : "Light"} />
+          <Header title="Lucas' Portfolio"
+            date={projects.lastUpdate}
+            themeHandler={handleThemeChange}
+            theme={theme === 'light' ? "Dark" : "Light"}
+          />
+
           <div className="cardContainer">
             {projs.map((proj) => <Card
               key={proj.title}
