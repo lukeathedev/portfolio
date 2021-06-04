@@ -1,0 +1,36 @@
+@import "../styles/design.scss";
+
+.BlogPost {
+  width: 100%;
+
+  border: $border-width solid;
+  border-radius: $border-radius;
+
+  margin: $gap-md;
+  padding: $gap-md;
+
+  transition: 0.5s ease;
+
+  .blogPostHeader {
+    display: flex;
+    justify-content: space-between;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .blogPostBody {
+    display: none;
+  }
+}
+
+.blogPostActive {
+  .chevron {
+    transform: rotate(90deg);
+  }
+
+  .blogPostBody {
+    display: block;
+  }
+}

@@ -5,6 +5,8 @@ import { Route, BrowserRouter, Switch, Redirect } from 'react-router-dom';
 import Projects from './pages/Projects';
 import Blog from './pages/Blog';
 
+// TODO: Add persistent themes across pages and history
+
 ReactDOM.render(
   // <React.StrictMode>
   //   <Projects />

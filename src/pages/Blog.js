@@ -7,6 +7,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 
 import './Blog.scss';
+import BlogPost from "../components/BlogPost";
 
 function Blog() {
   const [theme, setTheme] = useState('dark');
@@ -33,7 +34,10 @@ function Blog() {
           theme={theme === 'light' ? "Dark" : "Light"}
         />
 
-        <div>aaaa scary</div>
+        <div className="blogPostContainer">
+          <BlogPost title="Coming soon..." />
+          <BlogPost title="Stay tuned" />
+        </div>
 
         <div>
           <hr className="footHr"></hr>

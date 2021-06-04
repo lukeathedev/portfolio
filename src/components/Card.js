@@ -1,8 +1,6 @@
 import React from 'react';
 import './Card.scss';
 
-// TODO: Rework iframes
-
 function Card(props) {
   return (
     <div className={"Card bg1 fg0 border-ac0"}>

@@ -1,23 +1,21 @@
 @import "../styles/design.scss";
 
-$card-width: 300px;
-
 .Card {
   width: $card-width;
 
   // order: 2;
-  height: 400px;
+  height: $card-height;
   overflow-y: auto;
 
-  border: 2px solid;
-  border-radius: 10px;
+  border: $border-width solid;
+  border-radius: $border-radius;
   padding: $gap-md;
   margin: $gap-md;
 
   transition: 0.5s ease;
 
   p {
-    width: $card-width - 40px; // width-pad
+    width: $card-width - (2 * $gap-md); // width-pad
     margin-left: auto;
     margin-right: auto;
   }
@@ -29,14 +27,13 @@ $card-width: 300px;
   .displayHover {
     img {
       width: 100%;
+
+      border-radius: $border-radius;
     }
 
     display: none;
     width: 100%;
     // min-height: 800px;
-
-    border-width: 2px;
-    border-radius: 10px;
   }
 
   hr {
@@ -48,7 +45,7 @@ $card-width: 300px;
   // order: 1;
 
   min-width: $card-width;
-  width: $card-width + 30px;
+  width: $card-width + $gap-md+10; // Accounts for margins
   margin-left: 5px;
   margin-right: 5px;
 
