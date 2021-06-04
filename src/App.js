@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ThemeProvider } from 'styled-components';
-import { lightTheme, darkTheme } from './components/Theme';
+import { lightTheme, darkTheme } from './styles/Theme';
 import { GlobalStyles } from './Global';
 
 import Card from './components/Card';

@@ -1,9 +1,8 @@
 import React from 'react';
 import './Header.scss';
 
-export default class Header extends React.Component {
-  render() {
-    return (
+function Header(props) {
+  return (
       <div className="Header ac1">
         <div>
           {/* <h3 className="blogLink">
@@ -11,11 +10,12 @@ export default class Header extends React.Component {
           <br></br> */}
           <h1>
             Lucas' Portfolio<br></br>
-            <i className="fg1">Last updated {new Date(this.props.date).toLocaleDateString()}.</i>
+            <i className="fg1">Last updated {new Date(props.date).toLocaleDateString()}.</i>
           </h1>
         </div>
-        <button onClick={this.props.themeFunc}>{this.props.theme} Mode</button>
+        <button onClick={props.themeFunc}>{props.theme} Mode</button>
       </div>
-    );
-  }
+  );
 }
+
+export default Header;
