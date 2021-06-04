@@ -37,12 +37,6 @@ function App() {
     <div className="Projects">
       <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
         <GlobalStyles />
-        {/* <Card
-        title="hey there"
-        date={new Date().toLocaleDateString()}
-        desc={JSON.stringify(projects)}
-        page="https://lukeathedev.github.io/projects/chess2d/"
-      /> */}
         <div>
           <Header title="Lucas' Portfolio"
             date={projects.lastUpdate}

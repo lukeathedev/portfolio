@@ -6,6 +6,7 @@ import Projects from './pages/Projects';
 import Blog from './pages/Blog';
 
 // TODO: Add persistent themes across pages and history
+// TODO: Have a global theme setter, instead of per-page
 
 ReactDOM.render(
   // <React.StrictMode>

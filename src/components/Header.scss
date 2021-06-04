@@ -3,30 +3,25 @@
 .Header {
   padding: $gap-lg;
   padding-bottom: 0;
+  
+  line-height: 100px;
 
   display: flex;
   align-content: center;
   justify-content: space-between;
   align-items: center;
 
-  i {
-    font-size: 0.5em;
-  }
-
   h1 {
     margin-top: 0;
     line-height: 75%;
+    
+    i {
+      font-size: 0.5em;
+    }
   }
 
-  .blogLink {
-    margin-bottom: 0;
-
-    a {
-      text-decoration: underline;
-    }
-
-    &:hover {
-      cursor: pointer;
-    }
+  h3 {
+    margin-top: 0;
+    line-height: 75%;
   }
 }

@@ -34,6 +34,10 @@ export const GlobalStyles = createGlobalStyle`
     text-decoration: none;
   }
 
+  a:hover {
+    color: ${({ theme }) => theme.ac2};
+  }
+
   button {
     color: ${({ theme }) => theme.fg1};
     background-color: transparent;
