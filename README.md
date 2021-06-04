@@ -1,3 +1,7 @@
+# This is my portfolio!
+
+Below is the default create-react-app README, which might help you to get started with React. Feel free to take a peek at the source code and suggest some improvements!
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
