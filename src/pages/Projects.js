@@ -14,12 +14,7 @@ function Projects() {
   const [theme, setTheme] = useState('dark');
 
   const handleThemeChange = () => {
-    if (theme === 'light') {
-      setTheme('dark');
-    }
-    else {
-      setTheme('light');
-    }
+    setTheme(theme === 'light' ? 'dark' : 'light');
   }
 
   let projs = [];
@@ -55,12 +50,14 @@ function Projects() {
               repo={proj.repo}
             />)}
           </div>
+
         </div>
+
         <div>
           <hr className="footHr"></hr>
-
           <Footer />
         </div>
+        
       </ThemeProvider>
     </div>
   );

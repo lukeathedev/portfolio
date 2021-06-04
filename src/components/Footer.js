@@ -1,10 +1,6 @@
 import React from 'react';
 import './Footer.scss';
 
-// TODO: Rework iframes
-// Maybe just display image/text and link to project page and repo instead
-// Have a chevron next to name that rotates according to state (active or not)
-
 function Footer() {
   const footerSig = "function m(a,b,c){function j(a,b,c){let v=0,w=0; for(i=0;v*v +w*w<=4& i<c;i++) {z=v;v =v*v-w*w+ a;w=2*z* w+b}return i}function k(a,b,c, d,e){return a/(c-b) *(e-d)+d}for (w=0;w<b; w++){z=\"\" ;for(v=0; v<a;v++) {z+=\" .-+#\" [k(j(k (v,0,a, -1,1),k( w,0,b,-1, 1),c),0,c, 0,4)|0]} console.log(z) }}m(60, 30,40) // lucas a. (lukeathedev)";
 

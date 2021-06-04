@@ -5,10 +5,12 @@ function Card(props) {
   return (
     <div className={"Card bg1 fg0 border-ac0"}>
       <h1>{props.title}</h1>
-      {/* Date should be localeDateString or smth */}
+
       <h4>Created {new Date(props.date).toLocaleDateString()}</h4>
       <p>{props.desc}</p>
+
       <hr></hr>
+      
       <p className="hideHover"><i>Hover or tap for more.</i></p>
       <div className="displayHover">
         <p>

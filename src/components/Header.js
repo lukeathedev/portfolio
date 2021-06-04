@@ -22,8 +22,6 @@ function Header(props) {
     <div className="Header ac1">
       <div>
         <h3 className="fg1">
-          
-          
           {/* Could be better i guess */}
           {page === 0 && <span>&gt;&gt; home &lt;&lt; <Link to="/blog">blog</Link></span>}
           {page === 1 && <span><Link to="/projects"> home</Link> &gt;&gt; blog &lt;&lt;</span>}

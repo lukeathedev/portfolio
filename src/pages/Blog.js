@@ -13,12 +13,7 @@ function Blog() {
   const [theme, setTheme] = useState('dark');
 
   const handleThemeChange = () => {
-    if (theme === 'light') {
-      setTheme('dark');
-    }
-    else {
-      setTheme('light');
-    }
+    setTheme(theme === 'light' ? 'dark' : 'light');
   }
 
   return (
@@ -42,6 +37,7 @@ function Blog() {
           <hr className="footHr"></hr>
           <Footer />
         </div>
+        
       </ThemeProvider>
     </div>
   );
