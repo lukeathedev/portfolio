@@ -10,7 +10,7 @@ import Footer from '../components/Footer';
 import projects from './Projects.json';
 import './Projects.scss';
 
-function App() {
+function Projects() {
   const [theme, setTheme] = useState('dark');
 
   const handleThemeChange = () => {
@@ -66,4 +66,4 @@ function App() {
   );
 }
 
-export default App;
+export default Projects;
