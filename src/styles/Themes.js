@@ -2,8 +2,8 @@
 // https://coolors.co/030f11-d3f53d-ecf0f1-f05d5e-31283e
 
 export const lightTheme = {
-  bg0: '#FFFFFF',
-  bg1: '#F6F8FA',
+  bg0: '#F6F8FA',
+  bg1: '#FFFFFF',
 
   fg1: '#A5A5A5',
 
