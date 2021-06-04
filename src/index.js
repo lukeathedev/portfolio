@@ -20,7 +20,7 @@ ReactDOM.render(
         <Projects />
       </Route>
 
-      <Route Path="/blog">
+      <Route path="/blog">
         <Blog />
       </Route>
 
